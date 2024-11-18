@@ -23,7 +23,7 @@
         <li><a href="#features">Features</a></li>
         <li><a href="#clients">Clients</a></li>
         <li><a href="#team">Team</a></li>
-        <li><a href="#contact-us" class="get-in-touch">Contactus</a></li>
+        <li><a href="#contact-us" class="get-in-touch">Contact Us</a></li>
       </ul>
     
       <div id="toggle-btn">
@@ -36,7 +36,7 @@
         <li><a href="#features">Features</a></li>
         <li><a href="#clients">Clients</a></li>
         <li><a href="#team">Team</a></li>
-        <li><a href="#contact-us" class="get-in-touch">Contactus</a></li>
+        <li><a href="#contact-us" class="get-in-touch">Contact Us</a></li>
 
       </div>
     </nav>
@@ -48,7 +48,7 @@
         <hr>
       </div>
         <h1>Building Better <br>Infrastructure.</h1>
-        <a href="#" class="btn">All Projects</a>
+        <a href="#services" class="btn">All Projects</a>
       </div>
       <div class="project-list">
         <div class="project">
@@ -88,18 +88,25 @@
         that offer a cost-effective and efficient construction solution, while our modular houses provide clients with modern and environmentally sustainable living. Additionally, our team designs and constructs
         high-performance steel roofing structures, combining aesthetic appeal with lasting durability. We work closely with clients to deliver projects on time, within budget and built to last.</p>
         <ul class="aboutus-list">
-          <li><i class="fa-regular fa-circle-check"></i> PRE-ENGINEERED BUILDING (PEB) DESIGN & CONSTRUCTION </li>
-          <li><i class="fa-regular fa-circle-check"></i> STRUCTURAL STEEL DESIGN & CONSTRUCTION</li>
-          <li><i class="fa-regular fa-circle-check"></i> ROOFING SOLUTIONS</li>
-          <li><i class="fa-regular fa-circle-check"></i> TENSILE STRUCTURES</li>
+          <li><i class="fa-regular fa-circle-check"></i> Pre-Engineered Building (PEB) Design & Construction </li>
+          <li><i class="fa-regular fa-circle-check"></i> Structural Steel Design & Construction</li>
+          <li><i class="fa-regular fa-circle-check"></i> Roofing Solutions</li>
+          <li><i class="fa-regular fa-circle-check"></i> Tensile Structures</li>
       </ul>
   </div>
 </div>
 </section>
 <section class="section-three" id="services"> 
-  <div class="swiper-container ">
-    
+ 
+<div class="swiper-container ">
+<div class="swiper-top">
+  <div class="dummy" style="width: 20%;"></div>
     <h1>Our Services</h1>
+    <div class="custom-buttons1">
+      <button id="prevButton"><i class="fa-solid fa-arrow-left"></i></button>
+      <button id="nextButton"><i class="fa-solid fa-arrow-right"></i></button>
+  </div>
+</div>
  
     <div class="swiper-wrapper">
  
@@ -159,10 +166,12 @@
           </ul>
         </div>
     </div>
-    <div class="swiper-button">
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+    <div class="custom-buttons2">
+      <button id="prev"><i class="fa-solid fa-arrow-left"></i></button>
+      <button id="next"><i class="fa-solid fa-arrow-right"></i></button>
   </div>
+  </div>
+  
 
   
 </div>
@@ -241,7 +250,8 @@
 </div>
 </section>
 <section class="section-six" id="clients">
-<marquee behavior="scroll" direction="left" scrollamount="10" >
+  <h1>Our Clients</h1>
+<!-- <marquee behavior="scroll" direction="left" scrollamount="10" >
     <div class="marquee-container">
 
  
@@ -256,7 +266,33 @@
     <img class= "marquee-img" src="./images/Company Business Proposal (15).png" alt="Image 3" width="200" height="150" style="margin-right: 20px;">
   
   </div>
-  </marquee>  
+  </marquee>   -->
+
+  <div class="slider-container">
+    <div class="slider">
+      <!-- First set of slides -->
+      <img class= "slide" src="./images/Company Business Proposal (8).png" alt="Image 1" ">
+      <img class= "slide" src="./images/Company Business Proposal (9).png" alt="Image 2" ">
+      <img class= "slide" src="./images/Company Business Proposal (10).png" alt="Image 3" ">
+      <img class= "slide" src="./images/Company Business Proposal (11).png" alt="Image 3" ">
+      <img class= "slide" src="./images/Company Business Proposal (12).png" alt="Image 3" ">
+      <img class= "slide" src="./images/Company Business Proposal (13).png" alt="Image 3" ">
+      <img class= "slide" src="./images/Company Business Proposal (16).png" alt="Image 3" ">
+      <img class= "slide" src="./images/Company Business Proposal (14).png" alt="Image 3" ">
+      <img class= "slide" src="./images/Company Business Proposal (15).png" alt="Image 3" ">
+      <!-- Duplicate set for seamless loop -->
+      <img class= "slide" src="./images/Company Business Proposal (8).png" alt="Image 1" ">
+      <img class= "slide" src="./images/Company Business Proposal (9).png" alt="Image 2" ">
+      <img class= "slide" src="./images/Company Business Proposal (10).png" alt="Image 3" ">
+      <img class= "slide" src="./images/Company Business Proposal (11).png" alt="Image 3" ">
+      <img class= "slide" src="./images/Company Business Proposal (12).png" alt="Image 3" ">
+      <img class= "slide" src="./images/Company Business Proposal (13).png" alt="Image 3" ">
+      <img class= "slide" src="./images/Company Business Proposal (16).png" alt="Image 3" ">
+      <img class= "slide" src="./images/Company Business Proposal (14).png" alt="Image 3" ">
+      <img class= "slide" src="./images/Company Business Proposal (15).png" alt="Image 3" ">
+    </div>
+  </div>
+
 
 </section>
 <section class="section-seven" id="contact-us">
@@ -298,12 +334,12 @@
     <div class="footer-section-1">
       <h3>Navigation</h3>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Clients</a></li>
-        <li><a href="#">Team</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#team">Team</a></li>
       </ul>
     </div>
 
@@ -311,15 +347,16 @@
 
     <div class="footer-section-2">
       <h3>Contact Us</h3>
-      <p>+91 7025297000, +91 9072043108</p>
-      <p>atmostindia@gmail.com</p>
-      <p>Up Hill, Malappuram, Kerala, India, Pin:676505</p>
+      <p><i class="fa-solid fa-phone"></i> +91 7025297000, +91 9072043108</p>
+      <a href="mailto:atmostindia@gmail.com"><p><i class="fa-solid fa-envelope"></i> atmostindia@gmail.com</p></a>
+      <p><i class="fa-solid fa-location-dot"></i> Up Hill, Malappuram, Kerala, India, Pin:676505</p>
     </div>
 
   </div>
 
   <div class="footer-bottom">
-    <p>All rights reserved to Tefora, 2024®</p>
+    <p>Developed with 🤍 by
+      Tefora</p>
   </div>
 </footer>
 
@@ -350,10 +387,6 @@
       el: '.swiper-pagination',
       
   },
-  navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-  },
   breakpoints: {
     300: {
           slidesPerView: 1,
@@ -377,6 +410,21 @@
       },
   },
 });
+document.getElementById('prevButton').addEventListener('click', () => {
+            swiper.slidePrev(); 
+        });
+
+        document.getElementById('nextButton').addEventListener('click', () => {
+            swiper.slideNext(); 
+        });
+        document.getElementById('prev').addEventListener('click', () => {
+            swiper.slidePrev(); 
+        });
+
+        document.getElementById('next').addEventListener('click', () => {
+            swiper.slideNext();
+        });
 </script>
+
 
 </html>
