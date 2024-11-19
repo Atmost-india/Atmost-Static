@@ -112,7 +112,7 @@ header #toggle-btn i{
   display: flex;
   align-items: center;
   font-size: 18px;
-  color: #cccccc;
+  color: #7592d7;
 }
 .subtitle hr{
   margin-left: 20px;
@@ -149,19 +149,20 @@ header #toggle-btn i{
 .project hr{
   margin-top: 10px;
   margin-bottom: 10px;
+  background-color: #365f99;
 }
 .project span {
   font-size: 15px;
-  color: #cccccc;
+  color: #365f99;
 }
 .project p {
   font-size: 16px;
   max-width: 200px;
-  color: #cccccc;
+  color: #365f99;
  
 }
 .project p:hover{
-  color: white;
+  color: #2a3b67;
   cursor: pointer;
 }
 @media (max-width: 1024px) {
