@@ -12,7 +12,7 @@ body {
 /*SECTION-ONE*/
 
 header {
-  background: url('./images/construction-tall-concrete-pylon-bridge-using-tower-crane.jpg') no-repeat center center/cover;
+  background: linear-gradient(rgba(55, 78, 152, 0.502), rgba(88, 106, 195, 0.502)),url('./images/construction-tall-concrete-pylon-bridge-using-tower-crane.jpg') no-repeat center center/cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -149,16 +149,15 @@ header #toggle-btn i{
 .project hr{
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #365f99;
 }
 .project span {
   font-size: 15px;
-  color: #365f99;
+  color: #3559ac;
 }
 .project p {
   font-size: 16px;
   max-width: 200px;
-  color: #365f99;
+  color: #3559ac;
  
 }
 .project p:hover{
