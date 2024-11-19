@@ -777,15 +777,14 @@ header #toggle-btn i{
     grid-template-columns: repeat(5, 1fr); /* 5 equal columns */
     gap: 20px;
     width: 100%;
-    margin: auto;
     text-align: left;
-    overflow: hidden;
+ 
     
 }
 .service {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   align-items: center;
   padding: 20px;
   border: 1px solid #ddd;
@@ -814,7 +813,6 @@ header #toggle-btn i{
 }
 .service h3 {
   font-size: 1rem;
-  margin-bottom: 8px;
   color: #333;
   text-align: center;
 }
@@ -882,12 +880,13 @@ header #toggle-btn i{
   }
   .four h1 {
     font-size: 24px;
-      margin-top: 50px;
   }
   .service-icon {
     font-size: 1.4rem;
   }
-
+  .service {
+    gap: 10px;
+  }
   .service h3 {
     font-size: 0.85rem;
   }
@@ -1102,7 +1101,6 @@ header #toggle-btn i{
 
 footer {
   background-color: white;
-  
   font-family: Arial, sans-serif;
   color: #4a5a73;
 }
@@ -1184,10 +1182,9 @@ footer hr{
 
 
 @media (max-width: 1024px) {
-  
-footer{
-  padding: 40px;
-}
+  .footer-container{
+    padding: 40px;
+  }
   .footer-section-1, .footer-section-2 {
     width: 100%;
     margin-top: 20px;
@@ -1201,7 +1198,7 @@ footer{
 
 
 @media (max-width: 996px) {
-  footer{
+  .footer-container{
     padding: 30px;
   }
   .footer-section-1 ul li a,
@@ -1212,7 +1209,7 @@ footer{
 
 
 @media (max-width: 576px) {
-  footer {
+  .footer-container {
     padding: 20px;
   }
   .footer-container {
