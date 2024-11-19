@@ -12,7 +12,7 @@ body {
 /*SECTION-ONE*/
 
 header {
-  background: linear-gradient(rgba(55, 78, 152, 0.502), rgba(88, 106, 195, 0.502)),url('./images/construction-tall-concrete-pylon-bridge-using-tower-crane.jpg') no-repeat center center/cover;
+  background: linear-gradient(rgba(109, 110, 114, 0.502), rgba(38, 40, 50, 0.502)),url('./images/construction-tall-concrete-pylon-bridge-using-tower-crane.jpg') no-repeat center center/cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,9 +27,8 @@ header {
 }
 
 .logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #ffffff;
+  width: 250px;
+  height: 40px;
   text-decoration: none;
 }
 
@@ -106,13 +105,13 @@ header #toggle-btn i{
 }
 .hero-text {
   text-align: left; 
-  color: #2a3b67;
+  color: white;
 }
 .subtitle {
   display: flex;
   align-items: center;
   font-size: 18px;
-  color: #3559ac;
+  color: white;
 }
 .subtitle hr{
   margin-left: 20px;
@@ -151,20 +150,20 @@ header #toggle-btn i{
   margin-bottom: 10px;
   height: 1px;
   border:none;
-  background-color: #3559ac;
+  background-color: white;
 }
 .project span {
   font-size: 15px;
-  color: #3559ac;
+  color: white;
 }
 .project p {
   font-size: 16px;
   max-width: 200px;
-  color: #3559ac;
+  color: white;
  
 }
 .project p:hover{
-  color: #2a3b67;
+  
   cursor: pointer;
 }
 @media (max-width: 1024px) {
@@ -174,6 +173,7 @@ header #toggle-btn i{
   }
 
   header #toggle-btn {
+    font-size: 20px;
     display: block;
     cursor: pointer;
   }
@@ -928,9 +928,10 @@ header #toggle-btn i{
   margin: 20px;
 }
 
-.team-member img {
-  width: 100%;
-  height: auto;
+.team-member i {
+  font-size: 100px;
+  color: #2a3b67;
+  
   border-radius: 8px;
 }
 
@@ -1120,13 +1121,15 @@ footer hr{
 }
 
 .footer-logo {
+  width: 100%;
   flex: 1;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-logo .logo {
-  width: 50px;
+  width: 250px;
   margin-right: 10px;
 }
 
@@ -1232,7 +1235,7 @@ footer hr{
   }
 
   .footer-logo .logo {
-    width: 40px;
+    width: 250px;
   }
 }
 .slider-container {
