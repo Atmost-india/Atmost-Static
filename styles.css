@@ -149,6 +149,9 @@ header #toggle-btn i{
 .project hr{
   margin-top: 10px;
   margin-bottom: 10px;
+  height: 1px;
+  border:none;
+  background-color: #3559ac;
 }
 .project span {
   font-size: 15px;
