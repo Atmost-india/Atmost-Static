@@ -362,15 +362,33 @@
 
 </body>
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-            const toggleBtn = document.getElementById('toggle-btn'); // Corrected
-            const dropDownMenu = document.querySelector('.dropdown-menu');
+const toggleBtn = document.getElementById("toggle-btn");
+    const dropdownMenu = document.querySelector(".dropdown-menu");
+    const dropdownLinks = document.querySelectorAll(".dropdown-menu a");
 
-            toggleBtn.onclick = function () {
-                dropDownMenu.classList.toggle('open');
-                console.log(dropDownMenu.classList.contains('open')); // This will log true if the menu is open, false otherwise
-            }
-        });
+    // Toggle the dropdown menu
+    toggleBtn.addEventListener("click", () => {
+      dropdownMenu.classList.toggle("open");
+    });
+
+    // Close the dropdown menu when a link is clicked
+    dropdownLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        if (window.innerWidth <= 1024) {
+          dropdownMenu.classList.remove("open");
+        }
+      });
+    });
+
+    // Optional: Close the dropdown when clicking outside the menu
+    document.addEventListener("click", (event) => {
+      if (
+        !dropdownMenu.contains(event.target) &&
+        !toggleBtn.contains(event.target)
+      ) {
+        dropdownMenu.classList.remove("open");
+      }
+    });
 
 </script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
