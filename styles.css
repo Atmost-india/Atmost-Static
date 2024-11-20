@@ -584,8 +584,17 @@ header #toggle-btn i{
   cursor: pointer;
   font-size: 16px;
 }
-.custom-buttons button:hover {
-  background-color: #4a5a73;
+.custom-buttons1 button:hover {
+  transition: all 0.3s ease;
+  background-color: #93a4ad; 
+  transform: scale(1); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+.custom-buttons2 button:hover {
+  transition: all 0.3s ease;
+  background-color: #93a4ad; 
+  transform: scale(1); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 .card {
   background: #ffffff;
@@ -930,11 +939,15 @@ header #toggle-btn i{
   max-width: 200px;
   margin: 20px;
 }
+.team-member:hover{
+  transition: transform 0.3s, color 0.3s;
+  transform: scale(1.05);
+
+}
 
 .team-member i {
   font-size: 100px;
   color: #2a3b67;
-  
   border-radius: 8px;
 }
 
@@ -943,11 +956,21 @@ header #toggle-btn i{
   color: #4a5a73;
   margin-top: 10px;
 }
+.team-member h3:hover{
+  transition: color 0.3s ease;
+  color: #1d3557;
+}
 
 .team-member p {
   font-size: 1rem;
   color: #4a5a73;
 }
+.team-member p:hover{
+  transition: color 0.3s ease;
+  color: #457b9d;
+}
+
+
 @media (max-width:1024px){
   .section-five{
     padding: 40px;
@@ -963,6 +986,8 @@ header #toggle-btn i{
     padding: 20px;
   }
 }
+
+
 .section-six{
   padding: 50px;
 }
