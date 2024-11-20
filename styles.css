@@ -27,8 +27,7 @@ header {
 }
 
 .logo {
-  width: 250px;
-  height: 40px;
+  width: 200px;
   text-decoration: none;
 }
 
@@ -242,6 +241,9 @@ header #toggle-btn i{
   .hero-section {
     padding-top: 10px;
   }
+  .logo {
+    width: 150px;
+  }
 }
 @media (max-width: 780px) {
   .subtitle {
@@ -350,6 +352,9 @@ header #toggle-btn i{
     padding-top: 0px;
     padding-left: 6%;
   }
+  .logo {
+    width: 130px;
+  }
 }
 @media (max-width: 515px) {
 
@@ -435,6 +440,7 @@ header #toggle-btn i{
   }
   .about-us p {
     font-size: 17px;
+    line-height: 1.4rem;
   }
   .aboutus-list li {
     font-size: 0.95rem;
@@ -457,7 +463,6 @@ header #toggle-btn i{
 @media (max-width: 960px) {
   .about-us p {
     font-size: 14px;
-    font-weight: 100;
   }
   .aboutus-list li {
     font-size: 0.7rem;
@@ -466,7 +471,6 @@ header #toggle-btn i{
 @media (max-width: 840px) {
   .about-us p {
     font-size: 14px;
-    font-weight: 100;
   }
   .aboutus-list li {
     line-height: 1rem;
@@ -475,21 +479,17 @@ header #toggle-btn i{
 @media (max-width: 800px) {
   .about-us p {
     font-size: 11px;
-    font-weight: 100;
   }
   .aboutus-list li {
     font-size: 0.6rem;
-    font-weight: 200;
   }
 }
 @media (max-width: 680px) {
   .about-us p {
     font-size: 10px;
-    font-weight: 100;
   }
   .aboutus-list li {
     font-size: 0.5rem;
-    font-weight: 300;
   }
 }
 @media (max-width: 620px) {
@@ -498,7 +498,6 @@ header #toggle-btn i{
   }
   .aboutus-list li {
     font-size: 0.4rem;
-    font-weight: 300;
     line-height: 0.8rem;
   }
 }
@@ -1211,6 +1210,11 @@ footer hr{
   .footer-section-2 p {
     font-size: 0.9rem;
   }
+  
+.footer-logo .logo {
+  width: 200px;
+  
+}
 }
 
 
@@ -1235,7 +1239,8 @@ footer hr{
   }
 
   .footer-logo .logo {
-    width: 250px;
+    width: 150px;
+    
   }
 }
 .slider-container {
