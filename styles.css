@@ -637,6 +637,7 @@ header #toggle-btn i{
   color: #666;
 }
 .features-list p{
+  text-align: left;
   line-height: 0.9rem;
   margin-bottom: 0px;
 }
