@@ -422,9 +422,12 @@ header #toggle-btn i{
   margin-top: 2%;
 }
 .aboutus-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 1rem;
   color: black;
-  line-height: 1.6rem;
+  line-height: 1.7rem;
 }
 .aboutus-list li i{
   width: 5%;
