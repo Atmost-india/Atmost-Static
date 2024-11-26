@@ -428,6 +428,7 @@ header #toggle-btn i{
   line-height: 1.5rem;
   color: black;
   text-align: justify;
+  font-weight: normal;
   
 }
 .aboutus-list {
@@ -722,6 +723,9 @@ header #toggle-btn i{
   .swiper-container h1 {
     font-size: 24px;
   }
+  .swiper-slide.card{
+    height: 40rem;
+  } 
  
   .card h3 {
     font-size: 16px;
