@@ -189,6 +189,9 @@ header #toggle-btn i{
     height: calc(100vh - 55px);
     width: 100%;
   }
+  .section-one h1 {
+    font-size: 45px;
+  }
   .subtitle {
     font-size: 16px;
   }
@@ -196,9 +199,7 @@ header #toggle-btn i{
     margin-left: 18px;
     width: 700px;
   }
-  .hero-text h1{
-    font-size: 45px;
-  }
+ 
   .btn {
     padding: 8px 18px;
     font-weight: bold;
@@ -226,15 +227,16 @@ header #toggle-btn i{
 }
 
 @media (max-width: 900px) {
+  .section-one h1 {
+    font-size: 40px;
+  }
   .subtitle {
     font-size: 15px;
   }
   .subtitle hr{
     width: 600px;
   }
-  .hero-text h1{
-    font-size: 40px;
-  }
+
   .btn {
     padding: 6px 16px;
     margin-top: 3px;
@@ -250,6 +252,9 @@ header #toggle-btn i{
   }
 }
 @media (max-width: 780px) {
+  .section-one h1 {
+    font-size: 35px;
+  }
   .subtitle {
     font-size: 14px;
   }
@@ -257,9 +262,7 @@ header #toggle-btn i{
     margin-left: 15px;
     width: 550px;
   }
-  .hero-text h1{
-    font-size: 40px;
-  }
+
   .btn {
     padding: 5px 14px;
     margin-top: 0px;
@@ -280,6 +283,9 @@ header #toggle-btn i{
   }
 }
 @media (max-width: 720px) {
+  .section-one h1 {
+    font-size: 32px;
+  }
   .subtitle {
     font-size: 13px;
   }
@@ -306,6 +312,9 @@ header #toggle-btn i{
   }
 }
 @media (max-width: 640px) {
+  .section-one h1 {
+    font-size: 30px;
+  }
   .subtitle {
     font-size: 14px;
   }
@@ -313,9 +322,7 @@ header #toggle-btn i{
     margin-left: 10px;
     width: 450px;
   }
-  .hero-text h1{
-    font-size: 33px;
-  }
+ 
   .btn {
     font-weight: normal;
   }
@@ -328,13 +335,14 @@ header #toggle-btn i{
   }
 }
 @media (max-width: 576px) {
+  .section-one h1 {
+    font-size: 25px;
+  }
   .subtitle hr{
     margin-left: 10px;
     width: 400px;
   }
-  .hero-text h1{
-    font-size: 32px;
-  }
+ 
   .btn {
     padding: 5px 10px;
     font-size: 12px;
@@ -361,14 +369,15 @@ header #toggle-btn i{
   }
 }
 @media (max-width: 515px) {
+  .section-one h1 {
+    font-size: 20px;
+  }
 
   .subtitle hr{
     margin-left: 10px;
     width: 300px;
   }
-  .hero-text h1{
-    font-size: 30px;
-  }
+
 }
 @media (max-width: 450px) {
 
@@ -376,9 +385,7 @@ header #toggle-btn i{
     margin-left: 10px;
     width: 270px;
   }
-  .hero-text h1{
-    font-size: 28px;
-  }
+
 }
 
 /*SECTION-ONE-END*/
@@ -390,9 +397,9 @@ header #toggle-btn i{
 }
 .section-two h1{
   font-size: 30px;
-  text-align: center;
+  text-align: left;
   color: #2a3b67;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .about-us {
   display: flex;
@@ -421,11 +428,11 @@ header #toggle-btn i{
   line-height: 1.5rem;
   color: black;
   text-align: justify;
-  font-weight: 500;
+  
 }
 .aboutus-list {
   list-style: none;
-  margin-top: 2%;
+  margin-top: 4%;
 }
 .aboutus-list li {
   display: flex;
@@ -560,7 +567,6 @@ header #toggle-btn i{
 }
 .swiper-container h1{
   font-size: 30px;
-  margin-bottom: 30px;
   text-align: center;
   color: #2a3b67;
 }
@@ -570,6 +576,8 @@ header #toggle-btn i{
 .swiper-top{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
 }
 .custom-buttons1 {
   text-align: center;
@@ -581,7 +589,7 @@ header #toggle-btn i{
   display: none;
 }
 .custom-buttons1 button, .custom-buttons2 button {
-  padding: 10px 20px;
+  padding: 20px 20px;
   margin: 0 10px;
   background-color: #f9f9f9;
   color: black;
@@ -618,11 +626,11 @@ header #toggle-btn i{
 }
 .swiper-slide.card{
   width: 30%;
-  height: 520px;
+  height: 37rem;
 }
 .card img {
   width: 100%;
-  height: 200px;
+  height: 250px;
   border-radius: 10px;
 }
 .card h3 {
@@ -635,6 +643,7 @@ header #toggle-btn i{
   color: #666;
   margin-bottom: 20px;
   text-align: justify;
+  line-height: 1.5rem;
 }
 .features-list {
   display: flex;
@@ -690,13 +699,11 @@ header #toggle-btn i{
     font-size: 12px;
   }
   .swiper-slide.card{
-    height: 500px;
+    height: 36rem;
   }
 }
 @media (max-width: 760px) {
-  .swiper-slide.card{
-    height: 520px;
-  } 
+  
   .features-list p{
     font-size: 0.7rem;
     line-height: 0.7rem;
@@ -704,7 +711,7 @@ header #toggle-btn i{
 }
 @media (max-width: 760px){
   .swiper-slide.card{
-    height: 540px;
+    height: 37rem;
   } 
 
 }
@@ -725,9 +732,7 @@ header #toggle-btn i{
   .features-list li {
     font-size: 0.85em;
   }
-  .swiper-slide.card{
-    height: 460px;
-  } 
+ 
   .swiper-top{
     justify-content: center;
   }
@@ -754,16 +759,11 @@ header #toggle-btn i{
   }
 }
 
-@media (max-width: 480px) {
 
-  .swiper-slide.card{
-    height: 480px;
-  } 
-}
 @media (max-width: 455px) {
 
   .swiper-slide.card{
-    height: 500px;
+    height: 38rem;
   } 
   .features-list li {
     font-size: 0.6rem;
@@ -772,7 +772,7 @@ header #toggle-btn i{
 @media (max-width: 400px) {
 
   .swiper-slide.card{
-    height: 510px;
+    height: 37rem;
   } 
   .features-list li {
     font-size: 0.5rem;
@@ -789,7 +789,7 @@ header #toggle-btn i{
   font-size: 30px;
   text-align: center;
   color: #2a3b67;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
  
 }
 .section-four {
@@ -925,14 +925,14 @@ header #toggle-btn i{
   background-color: #f9f9f9;
   padding: 50px;
 }
-.team-section {
+/* .team-section {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
  
  
-}
+} */
 .section-five h1{
   font-size: 30px;
   margin-bottom: 50px;
@@ -940,9 +940,26 @@ header #toggle-btn i{
   color: #2a3b67;
 
 }
+.team-section{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.team-section1{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team-section2{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .team-member {
   text-align: center;
-  max-width: 250px;
+  width: 300px;
   margin: 20px;
 }
 .team-member:hover{
@@ -980,6 +997,11 @@ header #toggle-btn i{
 @media (max-width:1024px){
   .section-five{
     padding: 40px;
+  }
+  .team-section{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
   }
 }
 @media (max-width:996px){
@@ -1037,7 +1059,7 @@ header #toggle-btn i{
 }
 .contactus {
   display: flex;
-  align-items: center;
+  
   justify-content: space-between;
   gap: 50px;
 }
@@ -1057,6 +1079,7 @@ header #toggle-btn i{
   border-radius: 10px;
   border: none;
   padding: 10px 20px 10px 20px;
+  margin-bottom: 20px;
 }
 
 .section-seven .contactus .left-section .input-group label {
@@ -1065,12 +1088,13 @@ header #toggle-btn i{
   font-weight: 500;
   text-align: left;
   margin-bottom: 10px;
-  margin-top: 24px;
+  
 }
 
 .contactus .right-section {
   width: 50%;
   margin-bottom: 20px;
+ 
 }
 .contactus .right-section iframe {
   width: 100%;
@@ -1088,12 +1112,22 @@ header #toggle-btn i{
   padding: 10px 20px 10px 20px;
 }
 .section-seven button {
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
   border-radius: 10px;
   background-color: #2a3b67;
   color: white;
   border: none;
-  padding: 10px 20px 10px 20px;
+  padding: 15px 20px 15px 20px;
   margin-top: 36px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.section-seven button:hover {
+  background-color: #305397; /* Light blue */
+  transform: scale(1.0); /* Slight zoom effect */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 @media (max-width: 1024px) {
   .contactus {
@@ -1109,11 +1143,7 @@ header #toggle-btn i{
   .section-seven {
     padding:40px;
   }
-  .section-seven button {
-    position: absolute;
-    left: 45%;
-    transform: translate(-30%, -20%);
-  }
+  
 }
 @media (max-width: 996px) {
   .section-seven {
