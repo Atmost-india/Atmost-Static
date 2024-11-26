@@ -767,7 +767,7 @@ header #toggle-btn i{
 @media (max-width: 455px) {
 
   .swiper-slide.card{
-    height: 38rem;
+    height: 40rem;
   } 
   .features-list li {
     font-size: 0.6rem;
@@ -775,9 +775,7 @@ header #toggle-btn i{
 }
 @media (max-width: 400px) {
 
-  .swiper-slide.card{
-    height: 37rem;
-  } 
+ 
   .features-list li {
     font-size: 0.5rem;
   }
