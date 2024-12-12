@@ -53,7 +53,8 @@ header {
 }
 
 .get-in-touch {
-  background-color: #365f99;
+ border: 2px solid;
+ border-color: #EF5436;
   padding: 8px 16px;
   border-radius: 4px;
   font-weight: bold;
@@ -118,13 +119,13 @@ header #toggle-btn i{
   height: 1px;
 }
 .section-one h1 {
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 48px;
+  font-weight: 400;
   margin: 20px 0;
   color: white;
 }
 .section-one h1 span{
-  color: rgb(165, 35, 35);
+  color: #EF5436;
 }
 .btn {
   background-color: #365f99;
@@ -190,7 +191,7 @@ header #toggle-btn i{
     width: 100%;
   }
   .section-one h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
   .subtitle {
     font-size: 16px;
@@ -228,7 +229,7 @@ header #toggle-btn i{
 
 @media (max-width: 900px) {
   .section-one h1 {
-    font-size: 40px;
+    font-size: 32px;
   }
   .subtitle {
     font-size: 15px;
@@ -253,7 +254,7 @@ header #toggle-btn i{
 }
 @media (max-width: 780px) {
   .section-one h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .subtitle {
     font-size: 14px;
@@ -284,7 +285,7 @@ header #toggle-btn i{
 }
 @media (max-width: 720px) {
   .section-one h1 {
-    font-size: 32px;
+    font-size: 25px;
   }
   .subtitle {
     font-size: 13px;
@@ -293,9 +294,7 @@ header #toggle-btn i{
     margin-left: 12px;
     width: 500px;
   }
-  .hero-text h1{
-    font-size: 35px;
-  }
+
   .btn {
     padding: 4px 12px;
     font-size: 14px;
@@ -313,7 +312,7 @@ header #toggle-btn i{
 }
 @media (max-width: 640px) {
   .section-one h1 {
-    font-size: 30px;
+    font-size: 22px;
   }
   .subtitle {
     font-size: 14px;
@@ -336,7 +335,7 @@ header #toggle-btn i{
 }
 @media (max-width: 576px) {
   .section-one h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .subtitle hr{
     margin-left: 10px;
@@ -412,6 +411,7 @@ header #toggle-btn i{
 }
 .image-container img {
   width: 100%;
+  height: 400px;
 }
 .text-content {
   flex: 1;
@@ -446,12 +446,17 @@ header #toggle-btn i{
   font-size: 1rem;
   color: black;
   line-height: 1.7rem;
+  
+}
+.aboutus-list li p{
+  
+  font-weight: 600;
 }
 .aboutus-list li i{
   width: 5%;
   font-size: 16px;
   color: #28a745;
-  margin-top: 5px;
+  margin-top: 4px;
 }
 @media (max-width: 1024px) {
   .section-two {
@@ -462,11 +467,12 @@ header #toggle-btn i{
     text-align: center;
   }
   .about-us p {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.4rem;
   }
   .aboutus-list li {
-    font-size: 17px;
+    font-size: 16px;
+    line-height: 1.6rem;
   }
 }
 @media (max-width: 996px) {
@@ -476,43 +482,57 @@ header #toggle-btn i{
   .section-two h1 {
     font-size: 26px;
   }
+  .text-content {
+    flex: 1;
+    padding-left: 30px;
+  }
+  .image-container img {
+    width: 100%;
+    height: 350px;
+  }
   .about-us p {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 1.2rem;
   }
   .aboutus-list li {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media (max-width: 960px) {
   .about-us p {
-    font-size: 14px;
+    font-size: 13px;
   }
   .aboutus-list li {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 @media (max-width: 840px) {
   .about-us p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .aboutus-list li {
-    line-height: 14px;
+    font-size: 12px;
+    line-height: 1.4rem;
   }
 }
 @media (max-width: 800px) {
   .about-us p {
     font-size: 11px;
+    line-height: 1.1rem;
   }
   .aboutus-list li {
     font-size: 11px;
+    line-height: 1rem;
   }
 }
 @media (max-width: 680px) {
   .about-us p {
     font-size: 10px;
+
   }
   .aboutus-list li {
     font-size: 10px;
+    line-height: 1rem;
   }
 }
 @media (max-width: 620px) {
@@ -526,7 +546,7 @@ header #toggle-btn i{
 }
 @media (max-width: 576px) {
   .section-two {
-    padding: 20px;
+    padding: 30px;
   }
   .section-two h1 {
     font-size: 24px;
@@ -545,6 +565,7 @@ header #toggle-btn i{
   }
   .image-container img {
     width: 100%;
+    height: 300px;
   }
   .text-content{
     padding-left: 0px;
@@ -633,7 +654,7 @@ header #toggle-btn i{
 }
 .swiper-slide.card{
   width: 30%;
-  height: 37rem;
+  height: 39rem;
 }
 .card img {
   width: 100%;
@@ -679,7 +700,7 @@ header #toggle-btn i{
 }
 @media (max-width: 1024px) {
   .swiper-slide.card{
-    height: 38rem;
+    height: 40rem;
   }
   .section-three {
     padding: 40px;
@@ -695,6 +716,9 @@ header #toggle-btn i{
   }
 }
 @media (max-width: 996px) {
+  .swiper-slide.card{
+    height: 36rem;
+  }
   .section-three {
     padding: 30px;
   }
@@ -709,6 +733,12 @@ header #toggle-btn i{
     font-size: 12px;
   }
 
+}
+@media (max-width: 840px) {
+  .swiper-slide.card{
+    height: 38rem;
+  }
+ 
 }
 @media (max-width: 760px) {
   
@@ -731,7 +761,13 @@ header #toggle-btn i{
 }
 @media (max-width: 680px){
   .swiper-slide.card{
-    height: 40rem;
+    height: 42rem;
+  } 
+
+}
+@media (max-width: 649px){
+  .swiper-slide.card{
+    height: 36rem;
   } 
 
 }
@@ -743,11 +779,11 @@ header #toggle-btn i{
     font-size: 24px;
   }
   .swiper-slide.card{
-    height: 35rem;
+    height: 36rem;
   } 
   .card img {
     width: 100%;
-    height: 200px;
+    height: 250px;
     border-radius: 10px;
   }
   .card h3 {
@@ -788,13 +824,18 @@ header #toggle-btn i{
 
 
 @media (max-width: 455px) {
+  .swiper-slide.card{
+    height: 38rem;
+  } 
  
   .features-list li {
     font-size: 0.6rem;
   }
 }
 @media (max-width: 400px) {
-
+  .swiper-slide.card{
+    height: 40rem;
+  } 
  
   .features-list li {
     font-size: 0.5rem;
@@ -1138,19 +1179,16 @@ header #toggle-btn i{
   font-size: 16px;
   font-weight: bold;
   border-radius: 10px;
-  background-color: #2a3b67;
-  color: white;
-  border: none;
+  background-color: white;
+  color: #333;
+  border: 2px solid;
+  border-color: #EF5436;
   padding: 15px 20px 15px 20px;
   margin-top: 36px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  
 }
-.section-seven button:hover {
-  background-color: #305397; /* Light blue */
-  transform: scale(1.0); /* Slight zoom effect */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-}
+
 @media (max-width: 1024px) {
   .contactus {
     flex-direction: column;
